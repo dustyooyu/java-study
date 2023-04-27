@@ -17,8 +17,8 @@ public class UserTest {
         kims.phoneNumber = "010-0000-0000";
         kims.age = 15;
 
-        System.out.printf("%s님은 성인입니까? > %s\n",kyeongrok.name,kyeongrok.isAdult());
-        System.out.printf("%s님은 성인입니까? > %s\n",kima.name,kima.isAdult());
-        System.out.printf("%s님은 성인입니까? > %s\n",kims.name,kims.isAdult());
+        System.out.printf("%s님은 성인입니까? > %s\n",kyeongrok.name, kyeongrok.isAdult());
+        System.out.printf("%s님은 성인입니까? > %s\n",kima.name, kima.isAdult());
+        System.out.printf("%s님은 성인입니까? > %s\n",kims.name, kims.isAdult());
     }
 }

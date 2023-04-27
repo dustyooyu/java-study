@@ -7,6 +7,6 @@ public class User {
     int age;
 
     boolean isAdult(){
-        return age >=18;
+        return age >= 18;
     }
 }
