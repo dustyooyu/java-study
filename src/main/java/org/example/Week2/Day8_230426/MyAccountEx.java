@@ -1,6 +1,6 @@
 package org.example.Week2.Day8_230426;
 
-public class myAccountEx {
+public class MyAccountEx {
     public static void main(String[] args) {
         int myAccount = 1_000_000;
         System.out.printf("잔액: %d\n", myAccount);
