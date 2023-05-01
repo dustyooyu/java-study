@@ -8,7 +8,7 @@ public class CodeUp1070For {
         int input = sc.nextInt();
         for (int i = 0; input != 0; i++) { // input이 0이면 반복 종료
             System.out.println(input);
-            input = sc.nextInt();
+            input = sc.nextInt(); // for문 실행시마다 input 값을 갱신. 없으면 처음 input 값으로 무한루프.
         }
     }
 }
