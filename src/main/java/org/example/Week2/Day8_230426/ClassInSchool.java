@@ -4,5 +4,4 @@ public class ClassInSchool {
     int no;
     Teacher teacher;
     Student[] students;
-
 }
