@@ -8,4 +8,4 @@ public class CodeUp1103 {
     }
 }
 
-// printf "c:\test" 출력하기
+// "c:\test" 출력하기
