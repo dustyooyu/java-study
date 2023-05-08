@@ -1,8 +1,8 @@
-package org.example.CodeUp.num10;
+package org.example.CodeUp.num70;
 
 import java.util.Scanner;
 
-public class CodeUp1070For {
+public class CodeUp1071For {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int input = sc.nextInt();

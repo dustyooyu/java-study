@@ -1,8 +1,8 @@
-package org.example.CodeUp.num10;
+package org.example.CodeUp.num70;
 
 import java.util.Scanner;
 
-public class CodeUp1071 {
+public class CodeUp1072 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[sc.nextInt()]; // 첫줄에 입력된 정수 값이 배열의 길이로 지정됨
