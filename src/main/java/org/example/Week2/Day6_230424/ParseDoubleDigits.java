@@ -1,4 +1,4 @@
-package org.example.Week1.Day6_230424;
+package org.example.Week2.Day6_230424;
 
 public class ParseDoubleDigits {
     public static void main(String[] args) {
