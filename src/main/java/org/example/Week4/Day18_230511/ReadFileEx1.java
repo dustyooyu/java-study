@@ -1,12 +1,10 @@
 package org.example.Week4.Day18_230511;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException; // 파일이름 틀릴 경우 예외처리
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.charset.Charset;
 
-public class ReadFileEx {
+public class ReadFileEx1 {
 
     public static void main(String[] args) throws IOException {
 //        BufferedReader br = new BufferedReader(new FileReader("C:\\병원정보서비스202210.csv", Charset.forName("EUC-KR")));
