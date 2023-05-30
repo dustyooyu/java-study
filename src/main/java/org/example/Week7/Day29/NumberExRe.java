@@ -32,7 +32,7 @@ public class NumberExRe {
 
     private static List<Integer> factorsOf(int num){
         List<Integer> numbers = new ArrayList<>();
-        for (int i = 1; i < num; i++) {
+        for (int i = 1; i < num; i++) { // 진약수(자기자신 제외)
             if (num % i == 0)
                 numbers.add(i);
         }
