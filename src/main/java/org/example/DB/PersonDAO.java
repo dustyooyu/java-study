@@ -16,7 +16,7 @@ public class PersonDAO extends BaseDAO {
             if (rs.next()) {
                 int id = rs.getInt(("id"));
                 String name = rs.getString(("name"));
-                return Optional.of(new Person(id, name));
+                return Optional.of(new Person(id, name)); // Optional<Person> 반환
             }
         } catch (SQLException e) {
             e.printStackTrace();
