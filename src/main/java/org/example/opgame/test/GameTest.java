@@ -30,5 +30,18 @@ public class GameTest {
         assertEquals(true, game.isAnswer(2));
     }
 
+    @Test
+    public void testRandom(){
+        System.out.println((int)(Math.random() * 10));
+    }
+
+    @Test
+    public void testSumMax(){ // max를 정해두고 합이 그 이하인 덧셈 만들기
+        int max = 10;
+        int a = (int)(Math.random() * max);
+        int b = (int)(Math.random() * (max - a)); // b는 a 이하로 만들어짐
+        System.out.printf("%d + %d = %d", a, b, a + b);
+        assertTrue(a + b < max);
+    }
 
 }
