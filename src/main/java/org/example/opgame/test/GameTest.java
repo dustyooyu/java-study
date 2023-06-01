@@ -41,7 +41,7 @@ public class GameTest {
     public void testPlus() { // max를 정해두고 합이 그 이하인 덧셈 만들기
         int max = 10;
         int a = (int) (Math.random() * max);
-        int b = (int) (Math.random() * (max - a)); // b는 a 이하로 만들어짐
+        int b = (int) (Math.random() * (max - a)); // b를 max - a 만큼 만들어 10이 넘지 않도록 함
         System.out.printf("%d + %d = %d", a, b, a + b);
         assertTrue(a + b < max);
     }
@@ -50,7 +50,7 @@ public class GameTest {
     public void testMinus() { // 두 수 뺄셈 값이 음수가 되지 않도록
         int max = 10;
 //        int a = (int) (Math.random() * max);
-//        int b = (int) (Math.random() * a);  // 랜덤 생성된 실수에 a만큼 곱하여 생성
+//        int b = (int) (Math.random() * a);  // 랜덤 생성된 실수에 a만큼 곱하여 정수 생성
         int a = (int) (Math.random() * max);
         int b = (int) (Math.random() * max);
         if (a < b) {
